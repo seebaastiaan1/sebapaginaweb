@@ -1,0 +1,206 @@
+selector{
+    font-family: 'Baskerville Old Face', serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.3333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.6666%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.6666%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.3333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.6664%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.6663%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.navbar{
+    font-family: 'Baskerville Old Face', serif;
+}
+.navbar .nav-link, .navbar .navbar-brand {
+    margin-top: 12px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: center;
+
+}
+.navbar-underline{
+    border-bottom: 1px solid #565e64;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.navbar .navbar-nav .nav-link{
+    margin-right: 20px;
+}
+.navbar-nav .nav-link{
+    font-size: 16px;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+    transition: transform 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    transform: translateY(-5px);
+}
+.dropdown-menu{
+    background-color: black;
+    font-family: 'Baskerville Old Face', serif;
+}
+.dropdown-item:hover{
+    background-color: #2b2f32;
+    color: #D6DBDF;
+}
+.centered-image{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-height: 100vh;
+}
+.text-overlay{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Baskerville Old Face', serif;
+    font-size: 26px;
+    color: black;
+    margin-top: 110px;
+    font-weight: bold;
+}
+.bio{
+    font-family: 'Baskerville Old Face', serif;
+    font-size: 16px;
+    color: #D6DBDF;
+    text-align: center;
+    margin-top: 5px;
+}
+@media (max-width: 767px) {
+    .bio{
+        font-size: 16px;
+    }
+}
+
+.card {
+    border: none;
+    margin: 10px;
+    }
+    .small-card{
+        width: 60%;
+        max-width: 100%;
+    }
+    .alinear{
+        margin-left: 90px;
+    }
+.small-card {
+    transition: transform 0.3s;
+}
+
+.small-card:hover {
+    transform: translateY(-10px);
+}
+.fuente-personalizada{
+    font-family: 'Baskerville Old Face', serif;
+    color: white;
+}
+.custom-card{
+    font-family: 'Baskerville Old Face', serif;
+    width: 40%;
+    max-width: 100%;
+    background-color: black;
+}
+.alinear2{
+    margin-left: 160px;
+
+}
+.card-title{
+    color: white;
+}
+.footer{
+    font-family: 'Baskerville Old Face', serif;
+    color: white;
+}
+footer{
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+.card-text a {
+    color: #000;
+    transition: color 0.3s;
+}
+.custom-card.gallery-card a {
+    color: white;
+}
+.gallery-card {
+    transition: transform 0.2s;
+}
+
+.gallery-card:hover {
+    transform: scale(1.1);
+}
+
+.card-text a:hover {
+    color: #974FD4;
+}
+.parrafofuente{
+    font-family: 'Baskerville Old Face', serif;
+    color: white;
+}
+.cardnegra{
+    background-color: black;
+    color: white;
+}
